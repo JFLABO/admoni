@@ -20,4 +20,7 @@ data_frame2 = DataFrame(attri_data2)
 #print(pd.merge(data_frame1, data_frame2, how="inner" ,on="ID"))
 df=pd.merge(data_frame1, data_frame2, how="left" ,on="ID")
 #print(df.to_html())
-print df
+print (df)
+
+#path = 'data/src/sample_from_pandas_columns.json'
+#df.to_json(path)
